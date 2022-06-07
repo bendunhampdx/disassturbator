@@ -1,0 +1,31 @@
+.nav_meta {
+  position: fixed;
+  padding: 8px 0 0 22px;
+  // top: 0px;
+  background: #fff;
+  // z-index: 9999999;
+  height: 100%;
+  width: 240px;
+}
+
+.logo {
+  padding: 12px 0 10px 0;
+  width: min-content;
+  img {
+    width: 85px;
+  }
+}
+
+.menu ul {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    margin-top: 8px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
