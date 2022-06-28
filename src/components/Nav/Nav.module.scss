@@ -1,10 +1,10 @@
 .nav_meta {
   position: fixed;
   padding: 8px 0 0 22px;
-  // top: 0px;
+  top: 0px;
   background: #fff;
-  // z-index: 9999999;
-  height: 100%;
+  z-index: 9999999;
+  // height: 100%;
   width: 240px;
 }
 
@@ -27,5 +27,11 @@
     letter-spacing: 3px;
     font-size: 14px;
     font-weight: 600;
+    line-height: 20px;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
 }
