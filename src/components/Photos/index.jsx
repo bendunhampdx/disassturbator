@@ -3,7 +3,7 @@ import styles from "./Photos.module.scss";
 const Photos = () => {
   return (
     <div className={styles.meta}>
-      <h2>PHOTOS</h2>
+      <h1>PHOTOS</h1>
     </div>
   );
 };

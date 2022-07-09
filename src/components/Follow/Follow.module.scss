@@ -1,0 +1,24 @@
+.meta {
+  h2 {
+    text-transform: uppercase;
+  }
+  ul {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+      margin-top: 8px;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
