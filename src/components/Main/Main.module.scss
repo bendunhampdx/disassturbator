@@ -1,5 +1,17 @@
 .main_content {
-  width: 75%;
   border-top: 0.1em solid #ddd;
-  margin: 140px 0 0 262px;
+  margin-top: 2rem;
+}
+
+.empty {
+  height: 160px;
+  width: 100%;
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 0;
+    max-width: 100% !important;
+  }
 }

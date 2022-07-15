@@ -1,35 +1,27 @@
 import styles from "./Nav.module.scss";
 import Logo from "../../images/dLogo.jpg";
 import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
+import MobileNavigation from "./MobileNavigation";
+import Navigation from "./Navigation";
 
 const Nav = () => {
   return (
-    <div className={styles.nav_meta}>
-      <div className={styles.logo}>
-        <Link to="/home">
-          <img src={Logo} alt="logo" />
-        </Link>
-      </div>
-      <div className={styles.menu}>
-        <ul>
-          <li>
-            <Link to="/news">news</Link>
-          </li>
-          <li>
-            <Link to="/photos">photos</Link>
-          </li>
-          <li>
-            <Link to="/videos">videos</Link>
-          </li>
-          <li>
-            <Link to="/music">music</Link>
-          </li>
-          <li>
-            <Link to="/follow">follow</Link>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <Container className={styles.nav_meta}>
+      <Row>
+        <Col className={styles.inner}>
+          <div className={styles.logo}>
+            <Link to="/home">
+              <img src={Logo} alt="logo" />
+            </Link>
+          </div>
+          <div className={styles.menu}>
+            <MobileNavigation />
+            <Navigation />
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

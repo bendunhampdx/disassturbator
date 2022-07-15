@@ -1,18 +1,23 @@
 .nav_meta {
   position: fixed;
-  padding: 8px 0 0 22px;
-  top: 0px;
-  background: #fff;
-  z-index: 9999999;
-  // height: 100%;
-  width: 240px;
+}
+
+.inner {
+  height: 190px;
+}
+
+.nav_meta .MobileNavigation {
+  display: none;
 }
 
 .logo {
-  padding: 12px 0 10px 0;
-  width: min-content;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   img {
     width: 85px;
+  }
+  img:hover {
+    opacity: 0.5;
   }
 }
 
@@ -32,6 +37,48 @@
     a {
       text-decoration: none;
       color: black;
+    }
+    a:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav_meta {
+    max-width: 100% !important;
+    background-color: white;
+  }
+  .nav_meta .Navigation {
+    display: none;
+  }
+
+  .nav_meta .MobileNavigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav_meta .MobileNavigation .hamburger {
+    position: absolute;
+    right: 7%;
+    top: 20%;
+    cursor: pointer;
+  }
+  .nav_meta nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-right: 12px;
+
+    li {
+      margin-left: 6px;
+      margin-right: 6px;
     }
   }
 }
