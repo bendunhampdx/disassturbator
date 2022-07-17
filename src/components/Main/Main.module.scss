@@ -1,17 +1,20 @@
 .main_content {
   border-top: 0.1em solid #ddd;
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 
-.empty {
-  height: 160px;
-  width: 100%;
-  background-color: white;
-}
+// .empty {
+//   height: 160px;
+//   width: 100%;
+//   background-color: rgb(167, 160, 160);
+// }
 
 @media screen and (max-width: 768px) {
   .main {
     padding: 0;
     max-width: 100% !important;
+  }
+  .main_content {
+    margin-top: 12rem;
   }
 }

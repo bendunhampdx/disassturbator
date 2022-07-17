@@ -25,12 +25,34 @@
     max-height: 100%;
   }
 }
+.member:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .bottom_text {
   margin-top: 1rem;
   padding: 0 4px 0 4px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   p {
     text-align: center;
     text-transform: uppercase;
@@ -51,5 +73,8 @@
       max-width: 100%;
       max-height: 100%;
     }
+  }
+  .bottom_text {
+    justify-content: space-evenly;
   }
 }
