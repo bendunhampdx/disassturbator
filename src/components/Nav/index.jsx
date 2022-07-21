@@ -11,7 +11,7 @@ const Nav = () => {
       <Row>
         <Col className={styles.inner}>
           <div className={styles.logo}>
-            <Link to="/home">
+            <Link to="/">
               <img src={Logo} alt="logo" />
             </Link>
           </div>

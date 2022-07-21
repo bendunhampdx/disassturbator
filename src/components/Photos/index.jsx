@@ -10,80 +10,80 @@ const Photos = () => {
       <Row className="g-0">
         <Col md={4} className={styles.photo}>
           <div className={styles.box}>
-            <img src={images.ben1} alt="" />
+            <img src={images.ben1} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.avery1} alt="" />
+            <img src={images.avery1} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.jeff1} alt="" />
+            <img src={images.jeff1} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
             <img src={images.mike1} alt="" />
           </div>
           <div className={styles.box}>
-            <img src={images.ben4} alt="" />
+            <img src={images.ben4} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.jeff5} alt="" />
+            <img src={images.jeff5} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.avery6} alt="" />
-          </div>
-        </Col>
-        <Col md={4} className={styles.photo}>
-          <div className={styles.box}>
-            <img src={images.mike2} alt="" />
-          </div>
-          <div className={styles.box}>
-            <img src={images.jeff2} alt="" />
-          </div>
-          <div className={styles.box}>
-            <img src={images.ben2} alt="" />
-          </div>
-          <div className={styles.box}>
-            <img src={images.avery2} alt="" />
-          </div>
-          <div className={styles.box}>
-            <img src={images.avery4} alt="" />
-          </div>
-          <div className={styles.box}>
-            <img src={images.ben5} alt="" />
-          </div>
-          <div className={styles.box}>
-            <img src={images.mike5} alt="" />
-          </div>
-          <div className={styles.box}>
-            <img src={images.jeff6} alt="" />
+            <img src={images.avery6} alt="disassturbator band member" />
           </div>
         </Col>
         <Col md={4} className={styles.photo}>
           <div className={styles.box}>
-            <img src={images.ben3} alt="" />
+            <img src={images.mike2} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.avery3} alt="" />
+            <img src={images.jeff2} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.jeff3} alt="" />
+            <img src={images.ben2} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.mike3} alt="" />
+            <img src={images.avery2} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.jeff4} alt="" />
+            <img src={images.avery4} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.mike4} alt="" />
+            <img src={images.ben5} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.avery5} alt="" />
+            <img src={images.mike5} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.ben6} alt="" />
+            <img src={images.jeff6} alt="disassturbator band member" />
+          </div>
+        </Col>
+        <Col md={4} className={styles.photo}>
+          <div className={styles.box}>
+            <img src={images.ben3} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
-            <img src={images.mike6} alt="" />
+            <img src={images.avery3} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.jeff3} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.mike3} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.jeff4} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.mike4} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.avery5} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.ben6} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.mike6} alt="disassturbator band member" />
           </div>
         </Col>
       </Row>
