@@ -14,7 +14,7 @@ const Main = () => {
       <div className={styles.empty}></div>
       <div className={styles.main_content}>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/news" element={<News />} />
           <Route path="/photos" element={<Photos />} />
           <Route path="/music" element={<Music />} />
