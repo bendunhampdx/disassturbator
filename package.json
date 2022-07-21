@@ -1,6 +1,6 @@
 {
   "name": "disassturbator",
-  "homepage": "https://disassturbator.com/",
+  "homepage": "https://disassturbator.com/home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
