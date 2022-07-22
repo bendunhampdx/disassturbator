@@ -18,7 +18,7 @@ function App() {
         <Col md={10}>
           <Main />
         </Col>
-        <Col md={12}>{/* <Footer /> */}</Col>
+        {/* <Col md={12}><Footer /></Col> */}
       </Row>
     </Container>
   );
