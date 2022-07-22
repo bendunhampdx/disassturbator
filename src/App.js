@@ -1,16 +1,16 @@
+import { Helmet } from "react-helmet";
 import Nav from "./components/Nav/index.jsx";
 import Main from "./components/Main/index.jsx";
 // import Footer from "./components/Footer/index.jsx";
 import { Container, Row, Col } from "react-bootstrap";
-import { Helmet } from "react-helmet";
 import "./App.scss";
 
 function App() {
-  <Helmet>
-    <title>Disassturbator</title>
-  </Helmet>;
   return (
     <Container fluid>
+      <Helmet htmlAttributes>
+        <title>Disassturbator</title>
+      </Helmet>
       <Row>
         <Col md={2}>
           <Nav />
