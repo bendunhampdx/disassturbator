@@ -86,14 +86,17 @@
   }
 }
 @media screen and (max-width: 576px) {
-  .nav_meta nav ul {
-    top: 50px;
-    right: 50px;
+  .nav_meta {
+    height: 175px;
+    nav ul {
+      top: 50px;
+      right: 50px;
 
-    li {
-      margin-top: 6px;
-      margin-left: 12px;
-      margin-right: 12px;
+      li {
+        margin-top: 6px;
+        margin-left: 12px;
+        margin-right: 12px;
+      }
     }
   }
 }
