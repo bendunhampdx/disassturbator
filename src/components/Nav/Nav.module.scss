@@ -75,8 +75,8 @@
     position: absolute;
 
     top: 33px;
-    right: 65px;
-    left: 28%;
+    right: 50px;
+    left: 20%;
 
     margin-right: 12px;
 
@@ -91,14 +91,14 @@
 @media screen and (max-width: 400px) {
   .nav_meta nav ul {
     top: 17px;
-    right: 65px;
-    left: 28%;
+    right: 35px;
+    left: 26%;
 
     li {
-      margin-top: 0;
-      margin-bottom: 0;
-      margin-left: 6px;
-      margin-right: 6px;
+      margin-top: 6px;
+      // margin-bottom: 6px;
+      margin-left: 12px;
+      margin-right: 12px;
     }
   }
 }
