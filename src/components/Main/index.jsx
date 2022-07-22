@@ -11,7 +11,6 @@ import { Container } from "react-bootstrap";
 const Main = () => {
   return (
     <Container className={styles.main}>
-      <div className={styles.empty}></div>
       <div className={styles.main_content}>
         <Routes>
           <Route path="/" element={<Home />} />

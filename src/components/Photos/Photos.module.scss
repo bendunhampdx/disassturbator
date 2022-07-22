@@ -1,6 +1,14 @@
 .outer {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  padding-top: 1rem;
+  p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+  }
 }
 
 .box {

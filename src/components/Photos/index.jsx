@@ -8,6 +8,7 @@ const Photos = () => {
   return (
     <Container className={styles.outer}>
       <Row className="g-0">
+        <p>you're a regular asshole adams</p>
         <Col md={4} className={styles.photo}>
           <div className={styles.box}>
             <img src={images.ben1} alt="disassturbator band member" />
