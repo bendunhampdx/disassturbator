@@ -47,6 +47,14 @@ const NavLinks = (props) => {
       >
         <Link to="/follow">follow</Link>
       </motion.li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.4 }}
+        onClick={() => props.isMobile && props.closeMobileMenu()}
+      >
+        <Link to="/contact">contact</Link>
+      </motion.li>
     </ul>
   );
 };

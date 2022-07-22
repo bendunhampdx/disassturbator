@@ -5,6 +5,7 @@ import Photos from "../Photos/index";
 import Videos from "../Videos/index";
 import Music from "../Music/index";
 import Follow from "../Follow/index";
+import Contact from "../Contact/index";
 import { Route, Routes } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
@@ -19,6 +20,7 @@ const Main = () => {
           <Route path="/music" element={<Music />} />
           <Route path="/follow" element={<Follow />} />
           <Route path="/videos" element={<Videos />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Container>

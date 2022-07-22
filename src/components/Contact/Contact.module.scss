@@ -1,0 +1,42 @@
+.outer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.meta {
+  padding: 1rem 0 1rem 0;
+  p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  ul {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+      margin-top: 8px;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .outer {
+    max-width: 100% !important;
+  }
+}
