@@ -10,6 +10,7 @@ function App() {
     <Container fluid>
       <Helmet htmlAttributes>
         <title>Disassturbator</title>
+        <link rel="icon" href="../src/images/Disassturbator/iconD2.png"></link>
       </Helmet>
       <Row>
         <Col md={2}>
