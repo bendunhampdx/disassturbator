@@ -61,56 +61,28 @@
   .nav_meta .MobileNavigation .hamburger {
     position: absolute;
     right: 7%;
-    top: 20%;
+    top: 30%;
     cursor: pointer;
   }
+
+  .nav_meta .MobileNavigation .close_icon {
+    position: absolute;
+    right: 7%;
+    top: 4%;
+    cursor: pointer;
+  }
+
   .nav_meta nav ul {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: absolute;
-
-    top: 33px;
-    right: 50px;
-    left: 20%;
-
-    margin-right: 12px;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
 
     li {
-      margin-top: 0;
-      margin-bottom: 0;
-      margin-left: 6px;
-      margin-right: 6px;
-    }
-  }
-}
-@media screen and (max-width: 576px) {
-  .nav_meta {
-    height: 135px;
-    nav ul {
-      top: 50px;
-      right: 50px;
-
-      li {
-        margin-top: 6px;
-        margin-left: 12px;
-        margin-right: 12px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .nav_meta nav ul {
-    top: 10%;
-    right: 14%;
-    left: 34%;
-
-    li {
-      margin-top: 6px;
-      margin-left: 4px;
-      margin-right: 4px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
   }
 }

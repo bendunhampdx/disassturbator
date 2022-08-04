@@ -11,6 +11,18 @@ const Photos = () => {
         <p>you're a regular asshole adams</p>
         <Col md={4} className={styles.photo}>
           <div className={styles.box}>
+            <img src={images.band111} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.band112} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.band113} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.band114} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
             <img src={images.band107} alt="disassturbator band member" />
           </div>
           <div className={styles.box}>
@@ -34,9 +46,7 @@ const Photos = () => {
           <div className={styles.box}>
             <img src={images.avery6} alt="disassturbator band member" />
           </div>
-          <div className={styles.box}>
-            <img src={images.band1} alt="disassturbator band member" />
-          </div>
+
           <div className={styles.box}>
             <img src={images.band2} alt="disassturbator band member" />
           </div>
@@ -141,6 +151,18 @@ const Photos = () => {
           </div>
         </Col>
         <Col md={4} className={styles.photo}>
+          <div className={styles.box}>
+            <img src={images.band115} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.band116} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.band117} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.band118} alt="disassturbator band member" />
+          </div>
           <div className={styles.box}>
             <img src={images.mike2} alt="disassturbator band member" />
           </div>
@@ -263,6 +285,18 @@ const Photos = () => {
           </div>
         </Col>
         <Col md={4} className={styles.photo}>
+          <div className={styles.box}>
+            <img src={images.band119} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.band120} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.band121} alt="disassturbator band member" />
+          </div>
+          <div className={styles.box}>
+            <img src={images.band122} alt="disassturbator band member" />
+          </div>
           <div className={styles.box}>
             <img src={images.band97} alt="disassturbator band member" />
           </div>

@@ -165,6 +165,19 @@ const images = {
   band108: require("../../images/Disassturbator/Tour/IMG_0115.jpeg"),
   band109: require("../../images/Disassturbator/Tour/IMG_0116.jpeg"),
   band110: require("../../images/Disassturbator/Tour/IMG_0117.jpeg"),
+
+  band111: require("../../images/Band Shot/8ben.jpeg"),
+  band112: require("../../images/Band Shot/8blowfish.jpeg"),
+  band113: require("../../images/Band Shot/8dbatetattoo.jpeg"),
+  band114: require("../../images/Band Shot/8flag.jpeg"),
+  band115: require("../../images/Band Shot/8jeffbday.jpeg"),
+  band116: require("../../images/Band Shot/8kenton.jpeg"),
+  band117: require("../../images/Band Shot/8luis.jpeg"),
+  band118: require("../../images/Band Shot/8mike.jpeg"),
+  band119: require("../../images/Band Shot/8mike2.jpeg"),
+  band120: require("../../images/Band Shot/8rory.jpeg"),
+  band121: require("../../images/Band Shot/8tour.jpeg"),
+  band122: require("../../images/Band Shot/8tour2.jpeg"),
 };
 
 export default images;

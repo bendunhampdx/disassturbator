@@ -17,7 +17,7 @@ const MobileNavigation = () => {
 
   const closeIcon = (
     <CgClose
-      className={styles.hamburger}
+      className={styles.close_icon}
       size="40px"
       color="black"
       onClick={() => setOpen(!open)}
