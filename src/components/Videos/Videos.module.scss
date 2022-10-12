@@ -5,7 +5,7 @@
 
 .video_pack {
   padding: 1rem 0 1rem 0;
-
+  row-gap: 1rem;
   p {
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -16,7 +16,9 @@
 }
 .embed_responsive {
   max-width: 100%;
-  height: 500px;
+  height: 700px;
+  border-bottom: 0.1em solid #ddd;
+  padding-bottom: 2rem;
 
   iframe {
     width: 100%;
@@ -24,9 +26,20 @@
   }
 }
 
+@media screen and (max-width: 991px) {
+  .embed_responsive {
+    max-width: 100%;
+    height: 600px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .outer {
     max-width: 100% !important;
+  }
+  .embed_responsive {
+    max-width: 100%;
+    height: 500px;
   }
 }
 

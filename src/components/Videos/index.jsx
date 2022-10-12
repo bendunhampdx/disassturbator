@@ -6,14 +6,26 @@ const Videos = () => {
     <Container className={styles.outer}>
       <Row className={styles.video_pack}>
         <p>anxiety attack</p>
-        <Col>
+        <Col sm={12}>
           <div className={styles.embed_responsive}>
             <iframe
               src="https://www.youtube.com/embed/JdTs_vF0piU"
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
+              allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+          </div>
+        </Col>
+        <p>extended nap</p>
+        <Col sm={12}>
+          <div className={styles.embed_responsive}>
+            <iframe
+              src="https://www.youtube.com/embed/ro00-b8LhhA"
+              title="YouTube video player"
+              frameborder="0"
+              allowfullscreen
+              allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
           </div>
         </Col>
